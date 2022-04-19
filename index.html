@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de resto em JS</title>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+            background-color: rgb(48, 165, 198);
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var n1 = window.prompt("Qual o primeiro número?") ;
+        var n2 = window.prompt("Qual o segundo número?") ;
+        var res = n1 % n2 ; 
+        window.alert(`${res}`);
+        window.document.write(`O módulo dos números ${n1} % ${n2} é ${res}`)
+    </script>
+</body>
+</html>
